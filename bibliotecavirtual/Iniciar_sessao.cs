@@ -38,5 +38,13 @@ namespace bibliotecavirtual
             montar_Biblioteca.ShowDialog();
             this.Visible = true;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Biblioteca_pessoal biblioteca_Pessoal = new Biblioteca_pessoal();
+            this.Visible = false;
+            biblioteca_Pessoal.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

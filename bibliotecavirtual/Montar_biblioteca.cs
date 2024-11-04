@@ -33,5 +33,22 @@ namespace bibliotecavirtual
             iniciar_Sessao.ShowDialog();
             this.Visible = true;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Culpa_estrela culpa_Estrela = new Culpa_estrela();
+            this.Visible = false;
+            culpa_Estrela.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Meia_noite meia_Noite = new Meia_noite();
+            this.Visible = false;
+            meia_Noite.ShowDialog();
+            this.Visible = true;
+        }
     }
+
 }

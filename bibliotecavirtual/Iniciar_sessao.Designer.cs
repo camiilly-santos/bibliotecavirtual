@@ -30,12 +30,13 @@
         {
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.Location = new Point(367, 282);
+            button1.Location = new Point(367, 125);
             button1.Name = "button1";
             button1.Size = new Size(91, 23);
             button1.TabIndex = 0;
@@ -46,7 +47,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            button2.Location = new Point(367, 423);
+            button2.Location = new Point(367, 207);
             button2.Name = "button2";
             button2.Size = new Size(91, 23);
             button2.TabIndex = 1;
@@ -54,12 +55,24 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            button3.Location = new Point(367, 286);
+            button3.Name = "button3";
+            button3.Size = new Size(91, 23);
+            button3.TabIndex = 2;
+            button3.Text = "Clique aqui...";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Iniciar_sessao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.literatura__4_;
-            ClientSize = new Size(772, 537);
+            BackgroundImage = Properties.Resources.literatura__17_;
+            ClientSize = new Size(772, 396);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Iniciar_sessao";
@@ -72,5 +85,6 @@
 
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

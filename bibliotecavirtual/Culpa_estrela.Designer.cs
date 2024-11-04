@@ -1,6 +1,6 @@
 ﻿namespace bibliotecavirtual
 {
-    partial class Tela_entrar
+    partial class Culpa_estrela
     {
         /// <summary>
         /// Required designer variable.
@@ -28,57 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txbUser = new TextBox();
-            txbPass = new TextBox();
             button1 = new Button();
             SuspendLayout();
             // 
-            // txbUser
-            // 
-            txbUser.Location = new Point(231, 272);
-            txbUser.Name = "txbUser";
-            txbUser.Size = new Size(185, 23);
-            txbUser.TabIndex = 0;
-            txbUser.TextChanged += textBox1_TextChanged;
-            // 
-            // txbPass
-            // 
-            txbPass.Location = new Point(231, 373);
-            txbPass.Name = "txbPass";
-            txbPass.PasswordChar = '*';
-            txbPass.Size = new Size(185, 23);
-            txbPass.TabIndex = 1;
-            // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.Location = new Point(521, 449);
+            button1.Location = new Point(739, 406);
             button1.Name = "button1";
-            button1.Size = new Size(113, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Iniciar sessão...";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "Voltar";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += button1_Click_1;
             // 
-            // Tela_entrar
+            // Culpa_estrela
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.literatura__1_1;
-            ClientSize = new Size(646, 484);
+            BackgroundImage = Properties.Resources.literatura__10_;
+            ClientSize = new Size(850, 470);
             Controls.Add(button1);
-            Controls.Add(txbPass);
-            Controls.Add(txbUser);
-            Name = "Tela_entrar";
-            Text = "Tela_entrar";
+            Name = "Culpa_estrela";
+            Text = "Culpa_estrela";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private TextBox txbUser;
-        private TextBox txbPass;
         private Button button1;
     }
 }
