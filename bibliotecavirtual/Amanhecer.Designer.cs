@@ -1,6 +1,6 @@
 ﻿namespace bibliotecavirtual
 {
-    partial class It_coisa
+    partial class Amanhecer
     {
         /// <summary>
         /// Required designer variable.
@@ -34,34 +34,34 @@
             // 
             // button1
             // 
-            button1.Location = new Point(806, 383);
+            button1.Location = new Point(851, 373);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
-            button1.Text = "Voltar...";
+            button1.Text = "Voltar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(773, 411);
+            button2.Location = new Point(821, 402);
             button2.Name = "button2";
-            button2.Size = new Size(133, 27);
+            button2.Size = new Size(138, 23);
             button2.TabIndex = 1;
             button2.Text = "Adicionar à biblioteca";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // It_coisa
+            // Amanhecer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.literatura__15_;
-            ClientSize = new Size(918, 450);
+            BackgroundImage = Properties.Resources.literatura__25_;
+            ClientSize = new Size(987, 450);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "It_coisa";
-            Text = "It_coisa";
+            Name = "Amanhecer";
+            Text = "Amanhecer";
             ResumeLayout(false);
         }
 

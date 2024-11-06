@@ -17,13 +17,21 @@ namespace bibliotecavirtual
             InitializeComponent();
         }
 
-      
+
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             Montar_biblioteca montar_Biblioteca = new Montar_biblioteca();
             this.Visible = false;
             montar_Biblioteca.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Confirmacao confirmacao = new Confirmacao();
+            this.Visible = false;
+            confirmacao.ShowDialog();
             this.Visible = true;
         }
     }

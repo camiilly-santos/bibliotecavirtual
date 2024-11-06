@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace bibliotecavirtual
 {
-    public partial class E_acaba : Form
+    public partial class Amor_gelato : Form
     {
-        public E_acaba()
+        public Amor_gelato()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Montar_biblioteca montar_Biblioteca = new Montar_biblioteca();
-            this.Visible = false;
-            montar_Biblioteca.ShowDialog();
-            this.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,6 +22,14 @@ namespace bibliotecavirtual
             Confirmacao confirmacao = new Confirmacao();
             this.Visible = false;
             confirmacao.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Biblioteca_pessoal biblioteca_Pessoal = new Biblioteca_pessoal();
+            this.Visible = false;
+            biblioteca_Pessoal.ShowDialog();
             this.Visible = true;
         }
     }

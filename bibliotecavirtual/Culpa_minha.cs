@@ -24,5 +24,13 @@ namespace bibliotecavirtual
             lista_Desejo.ShowDialog();
             this.Visible = true;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Confirmacao confirmacao = new Confirmacao();
+            this.Visible = false;
+            confirmacao.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

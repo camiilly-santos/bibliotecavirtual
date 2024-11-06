@@ -10,26 +10,18 @@ using System.Windows.Forms;
 
 namespace bibliotecavirtual
 {
-    public partial class E_acaba : Form
+    public partial class Confirmacao : Form
     {
-        public E_acaba()
+        public Confirmacao()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Montar_biblioteca montar_Biblioteca = new Montar_biblioteca();
+            Iniciar_sessao iniciar_Sessao = new Iniciar_sessao();
             this.Visible = false;
-            montar_Biblioteca.ShowDialog();
-            this.Visible = true;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Confirmacao confirmacao = new Confirmacao();
-            this.Visible = false;
-            confirmacao.ShowDialog();
+            iniciar_Sessao.ShowDialog();
             this.Visible = true;
         }
     }

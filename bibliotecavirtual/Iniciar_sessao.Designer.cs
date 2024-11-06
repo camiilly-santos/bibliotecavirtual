@@ -31,12 +31,13 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.Location = new Point(367, 125);
+            button1.Location = new Point(367, 185);
             button1.Name = "button1";
             button1.Size = new Size(91, 23);
             button1.TabIndex = 0;
@@ -47,7 +48,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            button2.Location = new Point(367, 207);
+            button2.Location = new Point(367, 110);
             button2.Name = "button2";
             button2.Size = new Size(91, 23);
             button2.TabIndex = 1;
@@ -58,7 +59,7 @@
             // button3
             // 
             button3.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            button3.Location = new Point(367, 286);
+            button3.Location = new Point(367, 257);
             button3.Name = "button3";
             button3.Size = new Size(91, 23);
             button3.TabIndex = 2;
@@ -66,12 +67,24 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // button4
+            // 
+            button4.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            button4.Location = new Point(367, 326);
+            button4.Name = "button4";
+            button4.Size = new Size(91, 24);
+            button4.TabIndex = 3;
+            button4.Text = "Clique aqui...";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Iniciar_sessao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.literatura__17_;
+            BackgroundImage = Properties.Resources.literatura__26_;
             ClientSize = new Size(772, 396);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -86,5 +99,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private Button button4;
     }
 }

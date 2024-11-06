@@ -24,5 +24,29 @@ namespace bibliotecavirtual
             iniciar_Sessao.ShowDialog();
             this.Visible = true;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Lady_killers lady_Killers = new Lady_killers();
+            this.Visible = false;
+            lady_Killers.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Amor_gelato amor_gelato = new Amor_gelato();
+            this.Visible = false;
+            amor_gelato.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Amanhecer amanhecer = new Amanhecer();
+            this.Visible = false;
+            amanhecer.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

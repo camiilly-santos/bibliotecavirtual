@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -41,12 +42,23 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
+            // button2
+            // 
+            button2.Location = new Point(705, 435);
+            button2.Name = "button2";
+            button2.Size = new Size(133, 23);
+            button2.TabIndex = 1;
+            button2.Text = "Adicionar à biblioteca";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Culpa_estrela
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.literatura__10_;
             ClientSize = new Size(850, 470);
+            Controls.Add(button2);
             Controls.Add(button1);
             Name = "Culpa_estrela";
             Text = "Culpa_estrela";
@@ -56,5 +68,6 @@
         #endregion
 
         private Button button1;
+        private Button button2;
     }
 }

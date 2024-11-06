@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(761, 433);
+            button1.Location = new Point(737, 404);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -41,12 +42,23 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(705, 433);
+            button2.Name = "button2";
+            button2.Size = new Size(141, 23);
+            button2.TabIndex = 1;
+            button2.Text = "Adicionar à biblioteca";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Meia_noite
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.literatura__11_;
             ClientSize = new Size(858, 468);
+            Controls.Add(button2);
             Controls.Add(button1);
             Name = "Meia_noite";
             Text = "Meia_noite";
@@ -56,5 +68,6 @@
         #endregion
 
         private Button button1;
+        private Button button2;
     }
 }
