@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -52,12 +53,23 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.Location = new Point(808, 396);
+            button3.Name = "button3";
+            button3.Size = new Size(157, 23);
+            button3.TabIndex = 2;
+            button3.Text = "Adicionar à lista de desejo";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Lady_killers
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.literatura__23_;
-            ClientSize = new Size(987, 411);
+            ClientSize = new Size(995, 444);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Lady_killers";
@@ -69,5 +81,6 @@
 
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

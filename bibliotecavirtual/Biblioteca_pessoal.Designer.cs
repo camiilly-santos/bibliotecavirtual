@@ -87,6 +87,7 @@
             button5.TabIndex = 4;
             button5.Text = "Saiba mais...";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -96,6 +97,7 @@
             button6.TabIndex = 5;
             button6.Text = "Saiba mais...";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -105,6 +107,7 @@
             button7.TabIndex = 6;
             button7.Text = "Saiba mais...";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -114,6 +117,7 @@
             button8.TabIndex = 7;
             button8.Text = "Saiba mais...";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -123,6 +127,7 @@
             button9.TabIndex = 8;
             button9.Text = "Saiba mais...";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // Biblioteca_pessoal
             // 

@@ -30,11 +30,12 @@
         {
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(784, 426);
+            button1.Location = new Point(752, 426);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -44,7 +45,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(746, 455);
+            button2.Location = new Point(717, 455);
             button2.Name = "button2";
             button2.Size = new Size(142, 23);
             button2.TabIndex = 1;
@@ -52,12 +53,23 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.Location = new Point(704, 484);
+            button3.Name = "button3";
+            button3.Size = new Size(166, 23);
+            button3.TabIndex = 2;
+            button3.Text = "Adicionar à lista de desejo";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // E_acaba
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.literatura__9_;
-            ClientSize = new Size(900, 492);
+            ClientSize = new Size(900, 553);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "E_acaba";
@@ -69,5 +81,6 @@
 
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

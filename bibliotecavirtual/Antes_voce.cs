@@ -19,13 +19,21 @@ namespace bibliotecavirtual
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Lista_desejo lista_Desejo = new Lista_desejo();
+            Iniciar_sessao iniciar_Sessao = new Iniciar_sessao();
             this.Visible = false;
-            lista_Desejo.ShowDialog();
+            iniciar_Sessao.ShowDialog();
             this.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            Confirmacao confirmacao = new Confirmacao();
+            this.Visible = false;
+            confirmacao.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
             Confirmacao confirmacao = new Confirmacao();
             this.Visible = false;

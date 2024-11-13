@@ -32,6 +32,7 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -78,12 +79,22 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(31, 128);
+            label1.Name = "label1";
+            label1.Size = new Size(37, 15);
+            label1.TabIndex = 4;
+            label1.Text = "Leitor";
+            // 
             // Iniciar_sessao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.literatura__26_;
             ClientSize = new Size(772, 396);
+            Controls.Add(label1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -92,6 +103,7 @@
             Text = "Iniciar_sessao";
             Load += Iniciar_sessao_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -100,5 +112,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Label label1;
     }
 }

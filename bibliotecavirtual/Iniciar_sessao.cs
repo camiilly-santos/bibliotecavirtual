@@ -49,7 +49,10 @@ namespace bibliotecavirtual
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Desejo desejo = new Desejo();
+            this.Visible = false;
+            desejo.ShowDialog();
+            this.Visible = true;
         }
     }
 }
